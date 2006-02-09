@@ -1,0 +1,6 @@
+<use name=Geometry/Surface>
+<use name=TrackingTools/TrajectoryState>
+<use name=boost>
+<use name=clhep>
+<bin file=testTSOS.cpp>
+</bin>
