@@ -23,7 +23,7 @@ class TrajectoryStateOnSurface;
  *  It is ReferenceCounted.
  */
 
-class BasicTrajectoryState : private ReferenceCounted {
+class BasicTrajectoryState : public ReferenceCountedInEvent  {
 public:
 
   typedef BasicTrajectoryState                              BTSOS;
